@@ -1,8 +1,11 @@
+/* centered the body things */
+
 body {
     margin: 0 auto;
 }
 
 header {
+    /* used css grid to make the header with an avatar and profile name nav bar and  */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 30px;
@@ -23,6 +26,8 @@ header div h1 {
     font-weight: 100;
 }
 
+
+/* this is the nav code */
 header nav {
     grid-column: span 3;
     display: flex;
@@ -41,6 +46,7 @@ nav a {
     font-weight: 400;
 }
 
+/* This is the code for the hero banner, i used a cartoon called steins gate and it represents STEM as he's wearing a lab coat */
 
 section.hero-banner {
     display: grid;
@@ -60,12 +66,14 @@ section.hero-banner div {
     align-items: center;
     min-height: 120px;
 }
-
+/* this H2 Heading is just my GitHub name */
 section.hero-banner div h2 {
     color: white;
     font-weight: 100;
+    font-size: 2rem;
 }
 
+/* centered everything in the page wrapper added spacing using gap and good standard margin sizes*/
 
 .page-wrapper {
     display: flex;
@@ -76,6 +84,7 @@ section.hero-banner div h2 {
     align-items:stretch;
     max-width: 73%;
 }
+/* page-section class has a css display grid set with 4 equal columns for a template */
 
 .page-section {
     display: grid;
@@ -83,6 +92,9 @@ section.hero-banner div h2 {
     padding: 30px;
 }
 
+/*  Made the section heading stand out with the right side border 
+    Made the proportions on the Left 1/4, and on the the right 3/4 as the sizing. 
+*/
 .page-section h2 {
     grid-column: span 1;
     text-align: right;
@@ -98,13 +110,15 @@ section.hero-banner div h2 {
     margin-left: 40px;
 }
 
-
+/* this is the container for the work portfolio grid I made use of the repeat function */
 .work-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.3rem;
 }
 
+
+/* This is the panel I made to show my portfolio pictures */
 .work-container .panel {
     height: 340px;
     width: 100%;
@@ -113,6 +127,9 @@ section.hero-banner div h2 {
     align-items: center;    
     background-size: 100%;
 }
+
+/* this is the link on the panel to take you to the project, i havent got many projects so i just linked to my GitHub as a placeholder */
+
 .panel a {
     height: auto;
     width: 100%;
@@ -129,6 +146,9 @@ section.hero-banner div h2 {
     font-family: var(--header-font);
     height: auto;
 } 
+
+/* I had to use individual classes to make sure the images were different categories for each project panel */
+
 
 .work-container .work-panel-1 {
     grid-column: span 4;
@@ -169,12 +189,11 @@ section.hero-banner div h2 {
     margin: 0 auto;
 }
 
-
+/* these are my contact links */
 .contact-container  {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3rem;
-
 }
 
 .contact-container a {
