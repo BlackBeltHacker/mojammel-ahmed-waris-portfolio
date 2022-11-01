@@ -15,10 +15,8 @@ A portfolio I did for my Week 2 Challenge at my Front End Development Bootcamp.
 ## Installation
 Installation is not required as it is a website using HTML and CSS.
 
-You can open it in any browser using the deployed GitHub Pages link.
-
 ## Usage
-
+You can open it in any browser using the deployed GitHub Pages link.
 
 ## Credits
 - N/A
