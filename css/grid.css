@@ -50,6 +50,7 @@ section.hero-banner {
     background-repeat: no-repeat;
     background-color: #9A9D9E;
     background-position: top;
+    margin: 120px 0;
 }
 
 section.hero-banner div {
@@ -106,25 +107,24 @@ section.hero-banner div h2 {
 
 .work-container .panel {
     height: 340px;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;    background-size: 100%;
-}
-
-.panel div {
-    height: auto;
-    background-color: rgba(128, 128, 128, 0.836);
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 10px;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-size: 100%;
+}
+.panel a {
+    height: auto;
+    width: 100%;
+
+}
+.panel a div {
+    background-color: rgba(128, 128, 128, 0.836);
+    padding: 10px;
 } 
 
 
-.panel div h3 {
+.panel a div h3 {
     color: white;
     font-family: var(--header-font);
     height: auto;
