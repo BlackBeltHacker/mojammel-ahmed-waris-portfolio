@@ -62,18 +62,29 @@ section.hero-banner div h2 {
 }
 
 
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 120px 0;
+    gap: 10rem;
+    justify-content: center;
+    align-items:stretch;
+    max-width: 73%;
+}
+
 .page-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 400px;
+    padding: 30px;
 }
 
 .page-section h2 {
     grid-column: span 1;
     text-align: right;
-    align-self: center;
+    align-self: flex-start;
     padding: 40px;
     border-right: 3px solid black;
+
 }
 
 .page-section div {
@@ -93,39 +104,55 @@ section.hero-banner div h2 {
 }
 
 .work-container .panel {
-    width: 80%;
+    height: 400px;
+    width: 100%;
 }
+
+.panel div {
+    
+} 
+
+
+.panel div h3 {
+    color: white;
+    font-family: var(--header-font);
+    
+
+} 
 
 .work-container .work-panel-1 {
     grid-column: span 4;
+    background: url('https://api.lorem.space/image/house?w=150&h=150');
 
 }
 
 .work-container .work-panel-2 {
     grid-column: span 2;
+    background: url('https://api.lorem.space/image/car?w=150&h=150');
 
 }
 
 .work-container .work-panel-3 {
     grid-column: span 2;
+    background: url('https://api.lorem.space/image/burger?w=150&h=150');
 
 }
 
 .work-container .work-panel-4 {
     grid-column: span 2;
-
+    background-image: url('https://api.lorem.space/image/pizza?w=150&h=150');
 }
 
 .work-container .work-panel-5 {
     grid-column: span 2;
-
-}
-
-.portfolio-image {
-    width: 100%;
+    background-image: url('https://api.lorem.space/image/furniture?w=150&h=150');
 }
 
 .work-container h3 {
+
+}
+
+.contact {
 
 }
 
