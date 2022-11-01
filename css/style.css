@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    /* I use this red border trick to make it easier to see the box model */
     /* border: 1px solid red; */
 }
 
