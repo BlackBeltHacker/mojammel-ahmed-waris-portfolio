@@ -1,5 +1,3 @@
-
-
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -16,6 +14,9 @@ header div {
     gap: 1.5rem;
     padding: 20px;
     margin: 0 0 0 20px;
+}
+header div h1 {
+    font-weight: 100;
 }
 
 header nav {
@@ -61,7 +62,65 @@ section.hero-banner div h2 {
 }
 
 
-main {
+.page-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 400px;
+}
+
+.page-section h2 {
+    grid-column: span 1;
+    text-align: right;
+    align-self: center;
+    padding: 40px;
+    border-right: 3px solid black;
+}
+
+.page-section div {
+    grid-column: span 3;
+    align-self: center;
+    margin-left: 40px;
+}
+
+.page-section div p {
 
 }
+
+.work-container {
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+    min-height: 400px;
+    grid-gap: 1.3rem;
+}
+
+.work-container .work-panel-1 {
+    grid-column: span 4;
+    
+}
+
+.work-container .work-panel-2 {
+    grid-column: span 2;
+}
+
+.work-container .work-panel-3 {
+    grid-column: span 2;
+}
+
+.work-container .work-panel-4 {
+    grid-column: span 2;
+}
+
+.work-container .work-panel-5 {
+    grid-column: span 2;
+}
+
+.work-container h3 {
+
+
+
+}
+
+
+
+
 
