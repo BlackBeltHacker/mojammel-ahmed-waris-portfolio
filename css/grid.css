@@ -1,41 +1,67 @@
-body  {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1.5rem;
-}
+
 
 header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
 
+header div {
+    grid-column: span 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    background-color: black;
+    color:white;
+    gap: 1.5rem;
+    padding: 20px;
+    margin: 0 0 0 20px;
+}
+
+header nav {
+    grid-column: span 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    margin: 0 20px 0 0;
 }
 
 
-section {
-
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
+
+
+section.hero-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-image: url("../images/hero-banner-img.jpeg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: #9A9D9E;
+    background-position: top;
+}
+
+section.hero-banner div {
+    display: flex;
+    grid-column: span 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+}
+
+section.hero-banner div h2 {
+    color: white;
+    font-weight: 100;
+}
+
 
 main {
 
-}
-
-.grid-col-span-3 {
-    grid-column: span 3;
-}
-
-.grid-col-span-2 {
-    grid-column: span 2;
-}
-
-.grid-col-span-1 {
-    grid-column: span 1;
-}
-
-
-.flex-brand {
-    display: flex;
-    justify-content: flex-start;
-}
-.flex-nav {
-    display: flex;
-    justify-content: flex-end;
 }
 
