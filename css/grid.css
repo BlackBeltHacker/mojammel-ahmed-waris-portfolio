@@ -89,15 +89,11 @@ section.hero-banner div h2 {
 .work-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
     grid-gap: 1.3rem;
 }
 
 .work-container .panel {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block; 
+    width: 80%;
 }
 
 .work-container .work-panel-1 {
@@ -126,9 +122,7 @@ section.hero-banner div h2 {
 }
 
 .portfolio-image {
-    max-width: 800px;
-    height: auto;
-    object-fit: cover;
+    width: 100%;
 }
 
 .work-container h3 {
