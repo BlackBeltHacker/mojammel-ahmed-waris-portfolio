@@ -97,9 +97,6 @@ section.hero-banner div h2 {
     margin-left: 40px;
 }
 
-.page-section div p {
-
-}
 
 .work-container {
     display: grid;
@@ -109,30 +106,28 @@ section.hero-banner div h2 {
 
 .work-container .panel {
     height: 340px;
-    width: 100%;
+    width: auto;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    background-repeat: contain;
-    background-size: 100%;
-    background-position: center;
-
+    justify-content: center;
+    align-items: center;    background-size: 100%;
 }
 
 .panel div {
-    height: 2rem;
-    background-color: aqua;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.836);
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding: 30px;
-
+    padding: 10px;
+    width: 100%;
+    
 } 
 
 
 .panel div h3 {
     color: white;
     font-family: var(--header-font);
+    height: auto;
 } 
 
 .work-container .work-panel-1 {
@@ -167,10 +162,6 @@ section.hero-banner div h2 {
     font-size: 0.9rem;
 }
 
-.panel div {
-    height: auto;
-    width: 100%;
-}
 
 
 .page-wrapper {
@@ -178,10 +169,24 @@ section.hero-banner div h2 {
     margin: 0 auto;
 }
 
-.contact {
-    
+
+.contact-container  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+
 }
 
+.contact-container a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.contact-container p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
 
 
 
