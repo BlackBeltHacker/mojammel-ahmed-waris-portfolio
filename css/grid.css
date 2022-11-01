@@ -1,0 +1,41 @@
+body  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+}
+
+header {
+
+}
+
+
+section {
+
+}
+
+main {
+
+}
+
+.grid-col-span-3 {
+    grid-column: span 3;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.grid-col-span-1 {
+    grid-column: span 1;
+}
+
+
+.flex-brand {
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
