@@ -5,6 +5,7 @@ Portfolio to show my projects my skills in Web Development
 ![Portfolio Image](https://github.com/BlackBeltHacker/mojammel-ahmed-waris-portfolio/blob/main/images/project-image-README.png)
 
 ## Description
+
 A portfolio I did for my Week 2 Challenge at my Front End Development Bootcamp.
     - I used HTML, CSS, FlexBox and Grid to make this
     - I used anchor tags to link to a section of the page
@@ -13,12 +14,15 @@ A portfolio I did for my Week 2 Challenge at my Front End Development Bootcamp.
 
 
 ## Installation
+
 Installation is not required as it is a website using HTML and CSS.
 
 ## Usage
+
 You can open it in any browser using the deployed GitHub Pages link.
 
 ## Credits
+
 - N/A
 
 - I did this for a Skills Training Bootcamp by The Department for Education.
