@@ -88,37 +88,53 @@ section.hero-banner div h2 {
 
 .work-container {
     display: grid;
-    grid-column: 1fr 1fr 1fr 1fr;
-    min-height: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-gap: 1.3rem;
+}
+
+.work-container .panel {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
 }
 
 .work-container .work-panel-1 {
     grid-column: span 4;
-    
+
 }
 
 .work-container .work-panel-2 {
     grid-column: span 2;
+
 }
 
 .work-container .work-panel-3 {
     grid-column: span 2;
+
 }
 
 .work-container .work-panel-4 {
     grid-column: span 2;
+
 }
 
 .work-container .work-panel-5 {
     grid-column: span 2;
+
+}
+
+.portfolio-image {
+    max-width: 800px;
+    height: auto;
+    object-fit: cover;
 }
 
 .work-container h3 {
 
-
-
 }
+
 
 
 
